@@ -1,0 +1,254 @@
+.confirm {
+    margin: 0 auto;
+    width: 100%;
+}
+
+.ttl {
+    text-align: center;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.ttl-top {
+    font-size: 25px;
+}
+
+.form {
+    margin: 0 auto;
+    width: 60%;
+    text-align: center;
+}
+
+.form-group {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 0;
+    margin-bottom: 25px;
+    align-items: center;
+}
+.form-group__ttl {
+    font-size: 18px;
+    font-weight: bold;
+}
+.form-group__required {
+    color: red;
+    opacity: 0.5;
+}
+
+
+.form-group__name {
+    display: flex;
+}
+.form-group__name input {
+    width: 300px;
+    padding: 15px 10px;
+    border: 1px solid rgb(177, 170, 170);
+}
+.form-group__first-name {
+    margin-right: 10px;
+}
+.example-name {
+    display: flex;
+    justify-content: space-around;
+    color: rgb(159, 159, 159);
+}
+
+.form-group__gender {
+    width: 610px;
+    text-align: left;
+}
+.form-group__gender-men,
+.form-group__gender-woman {
+    width: 20px;
+    height: 20px;
+}
+
+.form-group__email,
+.form-group__mail,
+.form-group__address,
+.form-group__build,
+.form-group__opinion {
+    border: 1px solid rgb(177, 170, 170);
+}
+.example {
+    color: rgb(159, 159, 159);
+}
+.example-mail {
+    color: rgb(159, 159, 159);
+}
+
+.form-group__logo {
+    font-size: 18px;
+    font-weight: bold;
+}
+.form-group__input input {
+    width: 610px;
+    text-align: left;
+    padding: 15px 10px;
+}
+
+.form-group__textarea {
+    width: 610px;
+    text-align: left;
+}
+.form-group__opinion {
+    width: 100%;
+    padding: 15px 10px;
+}
+
+.form-button {
+    margin-bottom: 20px;
+}
+.form-button__submit {
+    background-color: #000;
+    color: white;
+    padding: 10px 35px;
+}
+
+.form-button__submit:hover {
+    opacity: 0.7;
+}
+.form-button__submit:active {
+    top: 5px;
+}
+
+
+@media screen and (max-width: 1215px) {
+    .form-group__input input {
+        width: 550px;
+    }
+}
+@media screen and (max-width:1078px) {
+
+    .form-group__name input {
+        width: 240px;
+    }
+    .form-group__gender {
+        width: 480px;
+    }
+    .form-group__input input {
+        width: 480px;
+    }
+    .form-group__textarea {
+        width: 480px;
+    }
+}
+@media screen and (max-width:999px) {
+    .form-group__input input {
+        width: 450px;
+    }
+    .form-group__ttl {
+        font-size: 14px;
+    }
+    .form-group__logo {
+        font-size: 14px;
+    }
+}
+@media screen and (max-width:864px) {
+    .form-group__name input {
+        width: 190px;
+    }
+    .form-group__gender {
+        width: 350px
+    }
+    .form-group__input input {
+        width: 350px;
+    }
+    .form-group__textarea {
+        width: 350px;
+    }
+}
+@media screen and (max-width:720px) {
+    .form-group__name input {
+        width: 135px;
+    }
+    .form-group__gender {
+        width: 270px
+    }
+    
+    .form-group__input input {
+         width: 270px;
+    }
+    
+    .form-group__textarea {
+        width: 270px;
+    }
+}
+@media screen and (max-width:520px) {
+    .form-group__name input {
+        width: 110px;
+    }
+    
+    .form-group__gender {
+        width: 200px
+    }
+    
+    .form-group__input input {
+        width: 200px;
+    }
+    
+    .form-group__textarea {
+        width: 200px;
+    }
+    .form-group__ttl {
+        font-size: 10px;
+    }
+    
+    .form-group__logo {
+        font-size: 10px;
+    }
+    .example {
+        font-size: 8px;
+    }
+    .example-mail {
+        font-size: 8px;
+    }
+}
+@media screen and (max-width:434px) {
+    .form-group__name input {
+        width: 90px;
+    }
+    
+    .form-group__gender {
+         width: 160px
+    }
+    
+    .form-group__input input {
+        width: 170px;
+    }
+    
+    .form-group__textarea {
+        width: 170px;
+    }
+}
+@media screen and (max-width:350px) {
+    .form-group__name input {
+        width: 70px;
+    }
+    
+    .form-group__gender {
+        width: 140px
+    }
+    
+    .form-group__input input {
+        width: 140px;
+    }
+    
+    .form-group__textarea {
+        width: 140px;
+    }
+    .form-group__ttl {
+        font-size: 7px;
+    }
+    
+    .form-group__logo {
+        font-size: 7px;
+    }
+    
+    .example {
+        font-size: 5px;
+    }
+    
+    .example-mail {
+        font-size: 5px;
+    }
+}

@@ -1,0 +1,47 @@
+.thank {
+    width: 100%;
+    margin: 0 auto;
+}
+.thanks-content {
+    margin: 0 auto;
+    width: 50%;
+    text-align: center;
+    margin-top: 300px;
+    margin-bottom: 100px;
+}
+.thanks-content__head {
+    font-weight: normal;
+}
+
+.form-button {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.form-button__submit {
+    background-color: #000;
+    color: white;
+    padding: 10px 35px;
+}
+
+.form-button__submit:hover {
+    opacity: 0.7;
+}
+
+.form-button__submit:active {
+    top: 5px;
+}
+
+@media screen and (max-width:712px){
+    .thanks-content__head {
+        font-size: 17px;
+    }
+}
+@media screen and (max-width:646px){
+    .thanks-content__head {
+        font-size: 12px;
+    }
+    .thanks-content {
+        margin-top: 150px;
+    }
+}
