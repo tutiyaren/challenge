@@ -112,6 +112,11 @@
     top: 5px;
 }
 
+.form-error {
+    text-align: left;
+    color: red;
+}
+
 
 @media screen and (max-width: 1215px) {
     .form-group__input input {

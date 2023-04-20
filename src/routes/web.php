@@ -3,10 +3,17 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ContactController;
 
-Route::get('/', [ContactController::class, 'confirm']);
-Route::get('/contact', [ContactController::class, 'contact']);
-Route::get('/thanks', [ContactController::class, 'thanks']);
-Route::get('/manege', [ContactController::class, 'manege']);
+Route::prefix('/')->group(function(){
+    Route::get('', [ContactController::class, 'confirm']);
+    Route::post('', [ContactController::class, 'confirm'])->name('form');
+    Route::get('contact', [ContactController::class, 'contact']);
+    Route::post('contact', [ContactController::class, 'contact'])->name('contact');
+    Route::get('thanks', [ContactController::class, 'thanks']);
+    Route::post('thanks', [ContactController::class, 'thanks'])->name('thanks');
+    Route::get('manege', [ContactController::class, 'manege'])->name('manege');
+    Route::delete('manege', [ContactController::class, 'destory']);
+
+});
 
 /*
 |--------------------------------------------------------------------------
